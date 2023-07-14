@@ -17,16 +17,15 @@ This is a bash script that automates the deployment and execution of a .NET Core
    chmod +x deploy.sh
    ```
 
-3. Customize the script:
-
-   - Update the `app_name` variable with your application's name if necessary.
-   - Modify the `app_dll` variable if your application's entry point DLL has a different name.
-
-4. Open the terminal, navigate to the directory containing the script, and execute it:
+3. Run the script directly from GitHub:
 
    ```bash
+   curl -o deploy.sh https://raw.githubusercontent.com/Lalatenduswain/dotnet-deploy/master/deploy.sh
+   chmod +x deploy.sh
    ./deploy.sh
    ```
+
+   This will download the script from GitHub, make it executable, and execute it.
 
 The script will check if the .NET Core SDK is installed, publish the application, and then run it using the `dotnet` command.
 
@@ -35,4 +34,4 @@ The script will check if the .NET Core SDK is installed, publish the application
 This script is licensed under the [MIT License](LICENSE).
 ```
 
-Feel free to modify the README.md file further according to your project's specific needs.
+Now the README.md file includes the additional instructions for running the script directly from the provided GitHub URL. Feel free to adjust it further to fit your requirements.
