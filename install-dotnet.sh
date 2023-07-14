@@ -5,8 +5,8 @@ sudo apt update
 sudo apt upgrade
 
 # Install dependencies
-sudo apt install -y curl libunwind8 gettext libc6 libgcc-s1 libgssapi-krb5-2 libssl-dev libstdc++6 zlib1g
-sudo apt install curl libunwind8 gettext libc6 libgcc1 libgssapi-krb5-2 libicu66 libssl1.1 libstdc++6 zlib1g
+sudo apt install -y curl libunwind8 gettext libc6 libgcc-s1 libgssapi-krb5-2 libssl-dev libicu66 zlib1g
+
 
 
 # Download the .NET SDK
