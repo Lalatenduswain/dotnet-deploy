@@ -32,6 +32,3 @@ The script will check if the .NET Core SDK is installed, publish the application
 ## License
 
 This script is licensed under the [MIT License](LICENSE).
-```
-
-Now the README.md file includes the additional instructions for running the script directly from the provided GitHub URL. Feel free to adjust it further to fit your requirements.
